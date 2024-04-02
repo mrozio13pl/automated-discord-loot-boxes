@@ -1,0 +1,17 @@
+{
+  "name": "automated-discord-loot-boxes",
+  "private": true,
+  "author": "mrozio13pl",
+  "description": "Automatically opens discord loot boxes and claims the decoration reward, even without access to loot boxes!",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "@mrozio/prompts": "^3.0.0",
+    "base-64": "^1.0.0",
+    "picocolors": "^1.0.0",
+    "undici": "^6.11.1"
+  }
+}
